@@ -1,0 +1,11 @@
+  Feature                              │ Setting                             │ Status
+  ──────────────────────────────────────┼─────────────────────────────────────┼─────────────────────────────────────
+   TR-069 CWMP Client                   │ ARC_TR69_EnableCWMP=0               │ OFF (Disabled)
+   Jio ACS Cloud URL                    │ ARC_TR69_URL=http://127.0.0.1:0/    │ BLOCKED (Loopback)
+   72-Hour Auto Reboot                  │ PeriodicReboot_Enable=0             │ OFF (Disabled)
+   Passwordless Telnet                  │ ARC_SYS_MPTEST=1 & TelnetdEnable=1  │ ON (Root Shell on Port 23)
+   Voice / IMS APN                      │ ARC_PROJ_APN1_Display=1             │ ON (Visible in UI)
+   UPnP IGD Engine                      │ ARC_UPNP_Enable=1                   │ ON (Active)
+   Dynamic DNS (DDNS)                   │ ARC_DDNS_Enable=1                   │ ON (Active)
+   DMZ Host Engine                      │ ARC_FIREWALL_DMZ_Enable=1           │ ON (Active)
+  ──────
